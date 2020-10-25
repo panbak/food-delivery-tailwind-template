@@ -21240,6 +21240,43 @@ video {
           animation: bounce 1s infinite;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+.item {
+  cursor: pointer;
+}
+
+.h-screen-50 {
+  height: 50vh;
+}
+
+.h-screen-75 {
+  height: 75vh;
+}
+
+.h-screen-25 {
+  height: 25vh;
+}
+
+.rounded-b-3xl{
+  border-bottom-right-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+
+.text-hero {
+  font-size: 6rem;
+}
+
+.bg-custom-yellow {
+  background-color: #febc2e;
+}
+
+.text-custom-yellow {
+  color: #febc2e;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;
